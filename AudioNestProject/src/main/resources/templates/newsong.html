@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ADD SONG</title>
+<link rel="stylesheet" type="text/css" href="/Song.css">
+</head>
+<body>
+<fieldset>
+    <form action="addsongs" method="post">
+        <label for="one">Song Name:</label><br>
+        <input type="text" name="name" placeholder="Enter SongName" required><br><br>
+        
+         <label for="two">Song Artist:</label><br>
+        <input type="text" name="artist" placeholder="Enter artistname"><br></br>
+        
+         <label>Song Genre:</label><br>
+        <input type="text" name="genre"  placeholder="Enter genre" required><br><br>        
+
+        <label>link:</label><br>
+        <input type="text" id="email" name="link" placeholder="Enter link" required pattern="^[A-Za-z\d]{3,10}@{a}[a-zA-Z]{7}.[a-z]{3}$"> <br><br>
+          
+          <button input type="submit" value="ADD song" >ADD Song</button>
+        </form>
+    </fieldset>
+
+</body>
+</html>

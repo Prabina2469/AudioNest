@@ -1,0 +1,47 @@
+/* Style for form */
+form {
+  margin: 0 auto; /* Center the form horizontally */
+  width: 300px; /* Set a specific width for the form */
+}
+
+/* Style for input fields */
+input[type="text"] {
+  width: calc(100% - 16px); /* Take up full width of parent container */
+  padding: 8px; /* Add padding */
+  margin-bottom: -0px; /* Add space between input fields */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+input[type="checkbox"]{
+	margin-top:0px;
+	width: calc(100% - 16px); /* Take up full width of parent container */
+  padding: 8px; /* Add padding */
+  margin-bottom: -80px; /* Add space between input fields */
+  box-sizing: border-box;
+}
+
+/* Style for labels */
+label {
+  display: inline-block; /* Make labels display as block elements */
+  margin-bottom: -100px;
+  margin-right:80px ;/* Add space below labels */
+  padding:-10px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  background-color: darkgreen; /* Green background color */
+  border:3px solid black; /* Remove border */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Display as block element */
+  width: 100%; /* Take up full width of parent container */
+  cursor: pointer; /* Add cursor pointer */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: yellowgreen; /* Darker green on hover */
+}

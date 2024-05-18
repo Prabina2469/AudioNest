@@ -1,0 +1,51 @@
+body{
+	 background-color:rgb(144, 216, 238);
+	 
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+  background-color: #0056b3; /* New background color on hover */
+}
+/* First button style */
+.first-button {
+    background-color:blue; /* Green */ 
+    color:white;
+   padding:5px 10px;
+   border-radius:50px;
+   text-align:center;
+   width:500px;
+   cursor: pointer;
+   font-size:20px;
+   display: inline-block;;
+}
+
+/* Second button style */
+.second-button {
+  background-color:blue; /* Blue */
+  color: #fff;
+   padding:5px 10px;
+  border-radius:50px;
+  text-align:center;
+  width:500px;
+  font-size:20px;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #555;
+  color: #fff;
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+

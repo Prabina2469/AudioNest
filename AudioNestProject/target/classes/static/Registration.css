@@ -1,0 +1,127 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://freerangestock.com/sample/52277/music-background-shows-song-tune-or-instruments-.jpg');
+    background-size: cover ;
+    backdrop-filter: 100%blur(100, 20 0 0);
+    box-shadow:none;
+    background-position: center;
+    backface-visibility: visible;
+}
+ h2{
+    font-size:30px ;
+    color: black;
+    text-align: center;
+ }
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background image */
+.backgroundimage {
+    background-image: url('your-background-image.jpg'); /* Replace 'your-background-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+/* Center the form container */
+.container {
+    width: 300px; 
+    height:540px;/* Adjust the width of the form container */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+/* Style form elements */
+ input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+    width: 70%;
+    padding: 7px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+} 
+
+/* Style checkbox and forgot password link */
+.remeber-forgot {
+    margin-bottom: 20px;
+}
+
+.remeber-forgot label {
+    margin-right: 10px;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+button[type="submit"] {
+    background-color:#fff;
+    color: #573b8a;
+    cursor: pointer;
+    border-radius:20px;
+    width:40%;
+    height:40px;
+    display:block;
+    justify-content:center;
+    font-size:20px;
+    font-weight:bold;
+    padding:5px;
+    margin:0 auto; 
+  } 
+
+  button[type="submit"]:hover {
+    background-color: darkgreen;
+  }
+  .input.box {
+    position: relative;
+}
+
+.input.box textarea {
+    padding-left: 25px; /* Adjust as needed */
+}
+
+.input.box .icon {
+    position: absolute;
+    top: 34%;
+    left: 150px; /* Adjust as needed */
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+/* Additional styles for icons inside the textarea */
+.input.box .icon i {
+    position: relative;
+    top: 2px; /* Adjust as needed */
+}
+button{
+    background-color:#fff;
+    color: #573b8a;
+    cursor: pointer;
+    border-radius:20px;
+    width:40%;
+    height:40px;
+    display:inline-block;
+    justify-content:center;
+    font-size:10px;
+    font-weight:bold;
+    padding:5px;
+    margin:10px; 
+  }
+  button:hover {
+    background-color:aqua;
+  }
+
